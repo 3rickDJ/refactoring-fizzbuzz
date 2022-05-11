@@ -1,0 +1,17 @@
+{
+  "name": "refactoring_fizzbuzz",
+  "version": "1.0.0",
+  "description": "Refactoring a project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "keywords": [
+    "refactoring"
+  ],
+  "author": "3rickDJ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
