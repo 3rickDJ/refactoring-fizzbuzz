@@ -1,11 +1,10 @@
+//NOTE: When executing `npm test [test]`
+// requirements: take the relative path starting from the this file
+const Reader = require('../lib/utils/Reader.js')
 
 describe('Unit tests for Reader', () => {
   test('1) read JSON file', () => {
-    //NOTE: When executing `npm test [test]`
-    //jest executes from the [test]  file, and not from where you executed the command
-    const Reader = require('../lib/utils/Reader.js')
-    //NOTE: But when it executes from here, it takes the root directory as
-    //     /refatoring_fizzbuzz
+    //NOTE: in any other case, take the relative path from where you did the command
     const explorers = Reader.readJsonFile('./explorers.json')
     expect(explorers).not.toBeUndefined()
   })
