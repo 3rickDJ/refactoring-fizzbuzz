@@ -4,7 +4,9 @@
   "description": "Refactoring a project",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "linter": "node ./node_modules/.bin/eslint .",
+    "linter-fix": "node ./node_modules/.bin/eslint . --fix"
   },
   "keywords": [
     "refactoring"
