@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "linter": "node ./node_modules/.bin/eslint .",
-    "linter-fix": "node ./node_modules/.bin/eslint . --fix"
+    "linter-fix": "node ./node_modules/.bin/eslint . --fix",
+    "start": "node ./lib/server.js"
   },
   "keywords": [
     "refactoring"
